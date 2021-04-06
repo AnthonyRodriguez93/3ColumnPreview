@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
     background-color: hsl(0, 0%, 95%);
+    line-height: 1.5rem;
     
 }
 p {
@@ -27,43 +28,48 @@ h1 {
     padding: 0;
 }
 
-.col {
+.col-sm {
     padding: 0;
-    max-width: 25%;
+    
 }
 
 .container {
     padding: 0;
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     margin-top: 10%;
+    justify-content: center;
 }
 .card-img-top {
     width: 60px;
     margin: 1rem;
 }
 .card-title {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .card-body {
     padding: 4rem 4rem;
     height: 590px;
-    /* width: 350px; */
+    width: 337px;
 }
 .sedansection {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 337px;
 }
 
 .suvsection {
-background-color:hsl(184, 100%, 22%);
+    background-color:hsl(184, 100%, 22%);
+    width: 337px;
+
 }
 
 .luxurysection {
-background-color:hsl(179, 100%, 13%);
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 337px;
 }
 
 .attribution { 
