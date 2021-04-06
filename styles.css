@@ -28,13 +28,9 @@ h1 {
     padding: 0;
 }
 
-.col-sm {
-    padding: 0;
-    
-}
+
 
 .container {
-    padding: 0;
     display: flex;
     flex-direction: row;
     margin-top: 10%;
@@ -56,12 +52,12 @@ h1 {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 337px;
+    /* width: 337px; */
 }
 
 .suvsection {
     background-color:hsl(184, 100%, 22%);
-    width: 337px;
+    /* width: 337px; */
 
 }
 
@@ -69,7 +65,7 @@ h1 {
     background-color:hsl(179, 100%, 13%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 337px;
+    /* width: 337px; */
 }
 
 .attribution { 
